@@ -11,6 +11,7 @@ from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 import streamlit.components.v1 as components
 import streamlit as st
+import os
 
 st.set_page_config(page_title="Cupello aiCoach Assistan", page_icon="Cupello")
 st.title("Cupello's aiCoach Assistant")
